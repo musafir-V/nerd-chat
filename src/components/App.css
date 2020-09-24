@@ -1,0 +1,42 @@
+.login {
+  height: 103vh;
+  /* background-color: rgba(52, 52, 52, 0.8); */
+  background-image: url("../assets/nerd1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 1em;
+}
+.register {
+  height: 103vh;
+  background-image: url("../assets/RegisterBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 1em;
+}
+
+/* Messages.js */
+
+.messages {
+  height: 360px;
+  overflow-y: scroll;
+}
+
+/* MessagesForm.js */
+
+/* .message__form {
+  position: fixed !important;
+  bottom: 1em;
+  margin-left: 320px !important;
+  left: 0;
+  right: 1em;
+  z-index: 200;
+} */
+
+/* Messages.js */
+
+.message__self {
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
